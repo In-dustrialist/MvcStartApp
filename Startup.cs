@@ -13,7 +13,6 @@ namespace YourProjectNamespace
             Configuration = configuration;
         }
 
-        
         public void ConfigureServices(IServiceCollection services)
         {
            
