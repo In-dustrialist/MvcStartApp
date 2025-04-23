@@ -4,7 +4,7 @@ using YourProjectNamespace.Middlewares;
 
 namespace YourProjectNamespace
 {
-    public class Startup 
+    public class Startup
     {
         public IConfiguration Configuration { get; }
 
