@@ -1,0 +1,25 @@
+﻿@model IEnumerable<YourProjectNamespace.Models.Db.Request>
+
+@{
+    ViewData["Title"] = "Request Logs";
+}
+
+<h2>История запросов</h2>
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Дата</th>
+            <th>URL</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var req in Model)
+        {
+            <tr>
+                <td>@req.Date</td>
+                <td>@req.Url</td>
+            </tr>
+        }
+    </tbody>
+</table> 
